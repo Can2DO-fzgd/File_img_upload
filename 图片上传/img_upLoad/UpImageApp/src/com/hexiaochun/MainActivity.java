@@ -38,7 +38,7 @@ import android.widget.ImageView;
 public class MainActivity extends Activity implements OnClickListener {
 
 	// 服务器地址
-	private static final String HOST = "http://192.168.1.105:8080/ImageServer/upServer";
+	private static final String HOST = "http://192.168.0.104:8087/ImageServer/upServer";
 	// 显示图片
 	private ImageView image;
 	// 两个but
@@ -112,7 +112,7 @@ public class MainActivity extends Activity implements OnClickListener {
 					getExternalStorageDirectory().getPath()+"/"+filename);
 			float wight=bitmap.getWidth();
 			float height=bitmap.getHeight();
-//			ZoomBitmap.zoomImage(bitmap, wight/8, height/8);
+			ZoomBitmap.zoomImage(bitmap, wight/8, height/8);
 			image.setImageBitmap(ZoomBitmap.zoomImage(bitmap, wight/8, height/8));
 			upbitmap=ZoomBitmap.zoomImage(bitmap, wight/8, height/8);
 			break;
