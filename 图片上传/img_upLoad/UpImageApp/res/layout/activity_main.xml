@@ -27,22 +27,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="拍照" />
+                android:text="拍照上传" />
 
             <Button
                 android:id="@+id/selete"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="选择" />
+                android:text="选择相册" />
+            
+            <Button
+            	android:id="@+id/up"
+            	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+            	android:text="开始上传" />
+            
         </LinearLayout>
 
-        <Button
-            android:id="@+id/up"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="up" />
-        
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
