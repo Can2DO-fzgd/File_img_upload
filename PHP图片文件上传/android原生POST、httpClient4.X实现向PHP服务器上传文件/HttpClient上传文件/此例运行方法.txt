@@ -1,0 +1,4 @@
+1、使用真机测试，使服务器与真机处于同一局域网中；
+2、将Desert.jpg和1.jpg复制到手机sdcard根目录下，即Desert.jpg所处的位置为：sdcard/Desert.jpg和sdcard/1.jpg；
+3、将receive_file.php，放在Apache服务器htdocs目录下；
+4、将android代码中的：222.195.151.19，改成自己电脑PHP服务器的地址；
